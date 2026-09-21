@@ -1,0 +1,30 @@
+/* Paleta de Canonical (framework Vanilla): grises, negro y verde */
+:root {
+  --ifm-color-primary: #0e8420;
+  --ifm-color-primary-dark: #0d771d;
+  --ifm-color-primary-darker: #0c701b;
+  --ifm-color-primary-darkest: #0a5c16;
+  --ifm-color-primary-light: #0f9123;
+  --ifm-color-primary-lighter: #109825;
+  --ifm-color-primary-lightest: #12ac2a;
+  --ifm-font-family-base: 'Ubuntu Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --ifm-font-family-monospace: 'Ubuntu Sans Mono', ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --ifm-heading-color: #111;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #262626;
+  --ifm-footer-background-color: #202020;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #62a36c;
+  --ifm-color-primary-dark: #549a5f;
+  --ifm-color-primary-darker: #4f915a;
+  --ifm-color-primary-darkest: #41774a;
+  --ifm-color-primary-light: #74ad7d;
+  --ifm-color-primary-lighter: #7db286;
+  --ifm-color-primary-lightest: #97c29e;
+  --ifm-heading-color: #f7f7f7;
+  --ifm-background-color: #262626;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
