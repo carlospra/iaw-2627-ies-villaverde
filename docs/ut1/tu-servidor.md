@@ -1,16 +1,21 @@
 ---
-title: "Tu servidor"
+title: "Proyecto, sesión 1: tu servidor base"
+sidebar_label: "Proyecto · Tu servidor base"
 slug: /ut1/tu-servidor
 ---
 
-# Tu servidor: máquina virtual a punto
+# Proyecto, sesión 1: tu servidor base
 
-Al acabar tienes una máquina virtual con **Ubuntu Server** que arranca, tiene red y tiene los paquetes al día. Es el servidor sobre el que vas a trabajar toda la unidad.
+Primera sesión del proyecto de la UT1. Al acabar tienes una máquina virtual con **Ubuntu Server** que arranca, tiene red y tiene los paquetes al día: la base sobre la que montarás el servidor de tu cliente.
 
-Hazlo **en tu propio ordenador**. El coordinador del equipo marca en la ficha qué paso ha terminado cada uno y avisa al profesor si alguien lleva más de 5 minutos atascado.
+**Se trabaja en equipo:** el coordinador reparte los pasos como tickets y os ayudáis a instalar y a entender cada uno. Pero **cada uno instala su propio servidor y escribe su propio cuaderno**, con sus palabras. Ayudar es explicar, no teclear en el ordenador de otro.
 
-:::info No cuenta para la nota
-Sirve para comprobar que tu servidor funciona antes de la primera práctica.
+Hazlo **en tu propio ordenador** y **haz una captura al terminar cada paso**: las necesitas para el [cuaderno del proyecto](#paso-8-entregar-el-cuaderno). Si no puedes hacer la captura, vale una foto de la pantalla con el móvil.
+
+El coordinador del equipo marca en la ficha qué paso ha terminado cada uno y avisa al profesor si alguien lleva más de 5 minutos atascado.
+
+:::info Hoy no se califica
+El cuaderno es la primera parte de la documentación del proyecto, que se califica al final del proyecto. Hasta entonces puedes mejorarlo.
 :::
 
 ## Paso 1. Crear la máquina en VirtualBox
@@ -43,8 +48,16 @@ Arranca la máquina y sigue el instalador. Las opciones que importan, en el orde
 - Red: la que viene por DHCP. **Fíjate en la IP que sale.**
 - Proxy: vacío. Espejo: el que propone. Disco: usar el disco entero.
 - Usuario: tu nombre en minúsculas y sin tildes. Nombre del servidor: `iaw-tunombre`.
-- Ubuntu Pro: saltar. Marca **Install OpenSSH server**. Snaps: ninguno.
+- Ubuntu Pro: saltar. Marca **Install OpenSSH server**.
+- Snaps: **ninguno**. Pulsa *Done* sin marcar nada.
 - Al terminar, **Reboot Now**. Si pide quitar el medio de instalación, pulsa Intro.
+
+### Nombre del servidor y snaps
+
+:::warning No te equivoques aquí
+- **Your server's name:** `iaw-` y tu nombre, en minúsculas, sin espacios ni tildes. Por ejemplo, `iaw-lucia`. Sale en el prompt de la terminal: `lucia@iaw-lucia:~$`.
+- **Snaps:** ninguno. Algunos, como el de Nextcloud, ocupan el puerto 80, y la semana que viene Apache no podría arrancar.
+:::
 
 ## Paso 4. Comprobar que puedes administrar el sistema
 
@@ -82,11 +95,13 @@ sudo apt update
 lsb_release -a
 ```
 
-## Paso 8. Entregar la captura
+## Paso 8. Entregar el cuaderno
 
-Haz una captura donde se vean la salida de `lsb_release -a` y la de `ip a`. En VirtualBox: `Ver → Tomar captura de pantalla` (o `Host + E`).
+Descarga la [plantilla del cuaderno del proyecto](pathname:///material/UT1_Dia1_Cuaderno_plantilla_IAW.docx). Para cada paso, pega tu captura y explica con tus palabras **qué has hecho, por qué y para qué sirve**. Al final, anota las incidencias que hayas tenido y cómo las resolviste.
 
-Súbela a la tarea **UT01 · Día 1: mi servidor** del aula virtual. Plazo: **lunes 28/09 a las 23:59**.
+Para hacer capturas en VirtualBox: `Ver → Tomar captura de pantalla` (o `Host + E`).
+
+Guárdalo en PDF como `cuaderno_proyecto_Nombre_Apellido.pdf` y súbelo a la tarea **UT01 · Proyecto: avance del día 1**. Plazo: **lunes 28/09 a las 23:59**.
 
 ## Si te atascas
 
@@ -108,5 +123,5 @@ En la consola de la máquina virtual no se puede sin más. Teclea los comandos: 
 :::
 
 :::note Si a las 20:05 no has terminado
-Pasa a los [ejercicios](/ut1/ejercicios-dia1) igual y termina esto en casa: la captura tiene de plazo hasta el lunes.
+Pasa a los [ejercicios](/ut1/ejercicios-dia1) igual y termina el cuaderno en casa: tiene de plazo hasta el lunes.
 :::

@@ -10,12 +10,13 @@ slug: /ut1
 
 | Día | Qué hacemos | Material |
 |---|---|---|
-| Martes 22/09 | Presentación, equipos, tu servidor y primeros ejercicios | [Tu servidor](/ut1/tu-servidor) · [Cliente, servidor y HTTP](/ut1/cliente-servidor-http) · [Ejercicios del día 1](/ut1/ejercicios-dia1) |
-| Martes 29/09 | Arranca el proyecto: un servidor para tu primer cliente | Próximamente |
+| Martes 22/09 | Presentación, equipos, proyecto (sesión 1: tu servidor base) y primeros ejercicios | [Proyecto · Tu servidor base](/ut1/tu-servidor) · [Cliente, servidor y HTTP](/ut1/cliente-servidor-http) · [Ejercicios del día 1](/ut1/ejercicios-dia1) |
+| Martes 29/09 | Proyecto, sesión 2: Apache, MySQL y PHP para tu primer cliente | Próximamente |
 
-Lo de las dos primeras horas del día 1 no cuenta para la nota. Los ejercicios de la última hora, sí.
+El día 1 solo se califican los ejercicios de la última hora. El cuaderno del proyecto se califica al final del proyecto.
 
 ## Descargas
 
 - [Presentación del módulo](pathname:///material/UT0_Presentacion_modulo_IAW.pptx)
 - [Presentación del día 1: cliente, servidor y HTTP](pathname:///material/UT1_Dia1_presentacion_IAW.pptx)
+- [Plantilla del cuaderno del proyecto](pathname:///material/UT1_Dia1_Cuaderno_plantilla_IAW.docx)
