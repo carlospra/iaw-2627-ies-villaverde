@@ -14,6 +14,10 @@ Hazlo **en tu propio ordenador** y **haz una captura al terminar cada paso**: la
 
 El coordinador del equipo marca en la ficha qué paso ha terminado cada uno y avisa al profesor si alguien lleva más de 5 minutos atascado.
 
+:::tip Qué hay detrás de cada paso
+En [estos apuntes](/ut1/que-hay-detras) tienes explicado qué estás haciendo en cada paso y por qué. Úsalos para escribir el **por qué** y el **para qué** de tu cuaderno, con tus palabras.
+:::
+
 :::info Hoy no se califica
 El cuaderno es la primera parte de la documentación del proyecto, que se califica al final del proyecto. Hasta entonces puedes mejorarlo.
 :::
