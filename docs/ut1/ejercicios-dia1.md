@@ -39,18 +39,28 @@ Para cada tarea de una aplicación web, indica si se hace en el **cliente** (el 
 Ejecuta estas dos peticiones:
 
 ```bash
-curl -I https://www.educa.madrid.org
 curl -I http://ubuntu.com
+curl -I http://scanme.nmap.org
 ```
 
-Completa la tabla. Si una cabecera no aparece, escribe «no lo indica».
+Después, lanza `curl -I` contra **3 webs que uses a menudo** (las eliges tú).
 
-| Petición | Código | Qué significa | Servidor (`server`) | Tipo (`content-type`) |
-|---|---|---|---|---|
-| https://www.educa.madrid.org | | | | |
-| http://ubuntu.com | | | | |
+Completa la tabla con las 5 webs. Si una cabecera no aparece, escribe «no lo indica».
 
-Compara los dos códigos de estado. Si son distintos, explica por qué.
+| Petición | Código | Qué significa | Servidor (`server`) | Tipo (`content-type`) | Redirección (`location`) |
+|---|---|---|---|---|---|
+| http://ubuntu.com | | | | | |
+| http://scanme.nmap.org | | | | | |
+| Tu web 1: | | | | | |
+| Tu web 2: | | | | | |
+| Tu web 3: | | | | | |
+
+1. Si alguna devuelve un código 3xx, explica con tus palabras por qué el servidor hace esa redirección.
+2. ¿Qué webs revelan la versión del software o el sistema operativo en la cabecera `server`? ¿Por qué es un riesgo de seguridad?
+
+:::info scanme.nmap.org
+Es un servidor que el proyecto Nmap mantiene para que cualquiera practique contra él. `curl -I` hace una única petición normal, igual que abrir la web en el navegador. No uses otras herramientas contra webs ajenas.
+:::
 
 :::note Si curl no está instalado
 ```bash
