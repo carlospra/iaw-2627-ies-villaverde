@@ -20,6 +20,11 @@ git add .
 git commit -m "docs: describe el cambio"
 git push
 ```
+## Mirror Ubuntu Server 24.04.6 LTS
+
+```
+https://130-4.download.real-debrid.com/d/4YIDJVYRLHPUU/ubuntu-24.04.5-live-server-amd64.iso
+```
 
 Cada `git push` vuelve a publicar la web sola (pestaña *Actions* del repositorio).
 
