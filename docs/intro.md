@@ -27,6 +27,8 @@ Montar y mantener lo que hay detrás de una web: el **servidor** (Apache, MySQL 
 | UT6 | Adaptación de gestores de contenidos | RA7 |
 | UT7 | Aplicaciones de ofimática web | RA4 |
 
+📘 **[Apuntes de la UT1 en PDF](pathname:///material/UT1_Instalacion_servidores_aplicaciones_web.pdf)**
+
 El orden de las unidades no sigue el número del RA: primero PHP y bases de datos, porque los gestores de contenidos funcionan sobre ellos.
 
 ## Cómo trabajamos
